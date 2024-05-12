@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream in Comfort</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Sahitya:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header Start -->
+    <nav class="header">
+        <nav class="navbar">
+            <div class="container-navbar">
+                <ul class="nav-links" id="menu-items">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#catalogue">Catalog</a></li>
+                    <li><a href="#save">Shop</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+                <div class="menu-toggle" id="menu-icon">&#9776;</div> <!-- Changed class name to menu-toggle -->
+                <div class="icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+            </div>
+        </nav>
+    </nav>
+
+    <nav class="header-detail">
+        <div class="header-content">
+            <div class="content-detail">
+                <p class="title">DREAM IN COMFORT</p>
+                <p>creating your perfect sleep sanctuary with us</p>
+                <div class="header-shop">
+                    <a href="#"><img src="images/shop.png" alt=""></a> 
+                </div>
+            </div>
+            <div class="content-image">
+                <img src="images/hero.png" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <nav class="quality">
+        <div class="quality-content">
+            <img src="images/healty.png" alt="">
+            <img src="images/100.png" alt="">
+            <img src="images/best.png" alt="">
+            <img src="images/com.png" alt="">
+        </div>
+    </nav>
+    
+    <!-- Header End -->
+
+    <!-- Body Start -->
+
+    <nav class="body">
+
+        <!-- -------------------------------------------------------------- -->
+
+        <!-- About Start -->
+
+        <nav class="about" id="about">
+            <div class="about-container">
+                <div class="about-detail">
+                    <p class="title">About Sleepy Shop</p>
+                    <p>Sleepy is the perfect bedding store for anyone looking to give their bedroom a makeover. With a wide selection of linens including sheets, duvet covers, quilts, and pillowcases, they have something to suit every taste. </p>
+                    <p>They offer several color options, patterns, and textures so that you can create the perfect ambiance in your bedroom. Their quality is second to none, with materials well-chosen for comfort and durability.</p>
+                    <div class="about-read">
+                        <span><a href="#">Read More</a></span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/about1.png" alt="Sleepy Shop Image">
+                </div>
+            </div>
+        </nav>
+
+        <!-- About End -->
+
+        <!-- -------------------------------------------------------------- -->
+
+        <!-- Catalogue Start -->
+        
+        <nav class="catalogue" id="catalogue">
+            <div class="catalogue-container">
+                <div class="catalogue-detail">
+                    <p class="title">Our Catalogue</p>
+                    <hr class="custom-line">
+                </div>
+                <div class="catalogue-product">
+                    <div class="catalogue-side">
+                        <div class="side-item active-pillow" onclick="showContent('pillow')"><img src="images/pillow.png" alt=""></div>
+                        <div class="side-item" onclick="showContent('sheet')"><img src="images/sheet.png" alt=""></div>
+                        <div class="side-item" onclick="showContent('mattress')"><img src="images/mattress.png" alt=""></div>
+                        <div class="side-item" onclick="showContent('duvet')"><img src="images/duvet.png" alt=""></div>
+                        <div class="side-item" id="side-arrow"><img src="images/arrows.png" alt=""></div>
+                    </div>
+                    <div class="content">
+                        <div id="pillowContent" class="active">
+                            <h2 class="title">our pillows</h2>
+                            <p>
+                                Our pillows have made a name for themselves with regard to comfort and quality. 
+                                Crafted from plush fibers like bamboo and premium goose down, they make sure you 
+                                drift off to sleep in no time. Specially designed with advanced technology, our 
+                                pillows contours perfectly to your body, giving you just the right amount of support 
+                                for perfect alignment throughout the night. Held on pedestals for its breathability, 
+                                coolness and durability, these state-of-the-art pillows are the perfect way to end each day.
+                            </p>
+                            <section class="product"> 
+                                <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+                                <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+                                <nav class="product-container">
+                                    <nav class="product-card">
+                                        <nav class="product-image">
+    
+                                            <img src="images/pillow1.png" class="product-thumb" alt="">
+                                            <nav class="description">
+                                                <span>Hottel Quality Pillow</span>
+                                                <span>125$&nbsp;<i class="fa-solid fa-cart-shopping"></i></span>
+                                            </nav>
+                                        </nav>
+    
+                                    </nav>
+                                    <nav class="product-card">
+                                        <nav class="product-image">
+    
+                                            <img src="images/pillow2.png" class="product-thumb" alt="">
+                                            <nav class="description">
+                                                <span>Hottel Quality Pillow</span>
+                                                <span>125$&nbsp;<i class="fa-solid fa-cart-shopping"></i></span>
+                                            </nav>
+                                        </nav>
+    
+                                    </nav>
+                                    <nav class="product-card">
+                                        <nav class="product-image">
+    
+                                            <img src="images/pillow3.png" class="product-thumb" alt="">
+                                            <nav class="description">
+                                                <span>Hottel Quality Pillow</span>
+                                                <span>125$&nbsp;<i class="fa-solid fa-cart-shopping"></i></span>
+                                            </nav>
+                                        </nav>
+      
+                                    </nav>
+                                    <nav class="product-card">
+                                        <nav class="product-image">
+    
+                                            <img src="images/pillow4.png" class="product-thumb" alt="">
+                                            <nav class="description">
+                                                <span>Hottel Quality Pillow</span>
+                                                <span>125$&nbsp;<i class="fa-solid fa-cart-shopping"></i></span>
+                                            </nav>
+                                        </nav>
+    
+                                    </nav>
+                                </nav>
+                            </section>
+                        </div>
+                        
+                        <div id="sheetContent">
+                            <!-- Your sheet content -->
+                        </div>
+                        <div id="mattressContent">
+                            <!-- Your mattress content -->
+                        </div>
+                        <div id="duvetContent">
+                            <!-- Your duvet content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Catalogue End -->
+
+        <!-- -------------------------------------------------------------- -->
+
+        <!-- Save Start -->
+
+        <nav class="save" id="save">
+            <div class="class-detail">
+                <div class="save-container">
+                    <div class="save-title">
+                        <span class="title">save up to 70% Off</span>
+                    </div>
+                    <div class="save-detail">
+                        <p>Our pillows are the perfect way to improve your sleep quality, 
+                            and now there’s even more incentive to upgrade with our 70% off 
+                            offer! Get cozy with a premium pillow that is soft, supportive, 
+                            and durable enough to last for years
+                        </p>
+                        <div class="read-more">
+                            <br>
+                            <br>
+                            <a href="#"><img src="images/shop.png" alt=""></a> 
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>       
+        <!-- Save End -->
+
+        <!-- -------------------------------------------------------------- -->
+
+        <!-- Blog Start -->
+
+        <nav class="blog" id="blog">
+            <div class="blog-container">
+                <div class="catalogue-detail">
+                    <p class="title">Our Blog</p>
+                    <hr class="custom-line">
+                </div>
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide">
+                            <div class="slide-detail">
+                                <div class="slide-content">
+                                    <span class="title">Benifts Of Good Pellow</span>
+                                    <p class="detail">
+                                        There has long been speculation about the impact that sleeping on a quality
+                                        pillow and seeing your dreams have on each other. Some people believe that
+                                        when you sleep on good pillows, it allows dream energy to flow freely, 
+                                        allowing for clearer and more vivid dreams. Others maintain that a good 
+                                        night's sleep is simply not possible without a comfortable and supportive 
+                                        pillow setting up the right environment.
+                                    </p>
+                                </div>
+                                <div class="blog-read">
+                                    <span><a href="#">Read More</a></span>
+                                </div>
+                            </div>
+                            <div class="slide-image">
+                                <img src="images/blog.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-detail">
+                                <div class="slide-content">
+                                    <span class="title">Benifts Of</span>
+                                    <p class="detail">
+                                        There has long been speculation about the impact that sleeping on a quality
+                                        pillow and seeing your dreams have on each other. Some people believe that
+                                        when you sleep on good pillows, it allows dream energy to flow freely, 
+                                        allowing for clearer and more vivid dreams. Others maintain that a good 
+                                        night's sleep is simply not possible without a comfortable and supportive 
+                                        pillow setting up the right environment.
+                                    </p>
+                                </div>
+                                <div class="blog-read">
+                                    <span><a href="#">Read More</a></span>
+                                </div>
+                            </div>
+                            <div class="slide-image">
+                                <img src="images/blog.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-detail">
+                                <div class="slide-content">
+                                    <span class="title">Benifts Of Good </span>
+                                    <p class="detail">
+                                        There has long been speculation about the impact that sleeping on a quality
+                                        pillow and seeing your dreams have on each other. Some people believe that
+                                        when you sleep on good pillows, it allows dream energy to flow freely, 
+                                        allowing for clearer and more vivid dreams. Others maintain that a good 
+                                        night's sleep is simply not possible without a comfortable and supportive 
+                                        pillow setting up the right environment.
+                                    </p>
+                                </div>
+                                <div class="blog-read">
+                                    <span><a href="#">Read More</a></span>
+                                </div>
+                            </div>
+                            <div class="slide-image">
+                                <img src="images/blog.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dots-slider">
+                    <span class="dot-slider" onclick="currentSlide(0)"></span>
+                    <span class="dot-slider" onclick="currentSlide(1)"></span>
+                    <span class="dot-slider" onclick="currentSlide(2)"></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Blog End -->
+
+        <!-- -------------------------------------------------------------- -->
+
+        <!-- Subscribe Start -->
+
+        <nav class="subscribe">
+            <div class="subscribe-container">
+                <div class="subscribe-content">
+                    <span class="title">Subscribe to get the latest news about us</span>
+                    <p class="detail">Sign up for our newsletter & knowing about offers We never spam your inbox, so don't worry.</p>
+                </div>
+                <div class="input-container">
+                    <i class="fa-regular fa-envelope input-icon"></i>
+                    <input type="text" class="gradient-border">
+                </div>
+                <div class="shop-now">
+                    <a href="#"><img src="images/subscribe.png" alt=""></a> 
+                </div>
+            </div>
+        </nav>
+
+        <!-- Subscribe End -->
+
+    </nav>
+
+    <!-- Body End -->
+
+    <!-- Footer Start -->
+
+    <nav class="footer">
+        <div class="footer-container">
+            <div class="container-flex">
+                <div class="container-about">
+                    <span class="title">about</span>
+                    <p>our story</p>
+                    <p>our impact</p>
+                    <p>faq</p>
+                </div>
+                <div class="container-customer">
+                    <span class="title">customer resources</span>
+                    <p>e-catalog</p>
+                    <p>request catalog</p>
+                    <p>support</p>
+                </div>
+                <div class="container-services">
+                    <span class="title">services</span>
+                    <p>delivery & shipping</p>
+                    <p>returns</p>
+                    <p>guarantee</p>
+                </div>
+                <div class="container-contact">
+                    <span class="location"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;12 John Avenue #2, New York</span>
+                    <span class="email"><i class="fa-regular fa-envelope"></i>&nbsp;&nbsp;sleepy@shop.com</span>
+                    <span class="phone"><i class="fa-solid fa-mobile-screen"></i>&nbsp;&nbsp;+1-222-34-SLEEP</span>
+                    <span class="social-media">
+                        <span class="title">social media:</span>
+                        <span class="media-icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-square-pinterest"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="copyright-detail">
+                    <p>created by elinaui9</p>
+                    <p>copyright 2023 sleepy shop. all rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Footer End -->
+
+    <script src="script.js"></script>
+</body>
+</html>
